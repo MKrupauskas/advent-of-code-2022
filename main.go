@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"mkrup.com/advent-of-code-2022/day1"
+	"mkrup.com/advent-of-code-2022/day2"
 )
 
 func run() error {
-	n, err := day1.Run()
+	n, err := day2.Solve()
 	if err != nil {
 			return err
 	}
